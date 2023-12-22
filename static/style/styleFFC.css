@@ -1,0 +1,119 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo img{
+    width: 50px;
+    object-fit: cover;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    gap: 10px;
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #D41B1B;
+}
+.wrapper{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px 0 50px;
+    height: 60px;
+    background: rgba(248, 225, 27, 0.6);
+    border-radius: 20px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: rgb(0, 0, 0, 1);
+} 
+.navbar ul li:hover{
+    transform: scale(1.03);
+}
+.content{
+    margin-top: 50px;
+    width: 1300px;
+    height: 618px;
+    margin-left: 50px;
+    background: rgba(248, 225, 27, 0.6);
+    border-radius: 20px;
+    z-index: auto;
+}
+.team{
+    padding-top: 30px;
+}
+.team h1{
+    font-size: 35px;
+    font-weight: 600;
+    color: #D41B1B;
+    text-align: center;
+}
+.team p{
+    margin-top: -10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.59);
+    font-weight: 550;
+}
+.body{
+    position: relative;
+    height: 800px;
+}
+.isi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#videoElement {
+    width: 100%;
+    max-width: 500px; /* Atur lebar maksimum sesuai kebutuhan */
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    margin-left: 350px; /* Meletakkan ke kanan */
+    margin-right: auto; /* Meletakkan ke kiri */
+}
+
+#detectedImage {
+    width: 100%; /* Ukuran gambar */
+    max-width: 500px;
+    height: auto;
+    float: right;
+    border-radius: 20px; /* Meletakkan gambar di sebelah kanan */
+    margin-right: 100px; /* Meletakkan ke kanan */
+    margin-top: -570px;
+    z-index: 1;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    bottom: 110px; /* Sesuaikan nilai ini untuk menyesuaikan posisi tombol */
+    left: 25%;
+    transform: translateX(-50%);
+}
+button:hover {
+    background-color: #ff3333;
+}
+

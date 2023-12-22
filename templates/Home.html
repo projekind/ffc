@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-5.2.3-dist/css/bootstrap.min.css') }}">
+    <title>Home</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='image/logoffc.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="body">
+        <img style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -9; object-fit: cover;" src="{{ url_for('static', filename='image/background.png') }}" alt="">
+        <div class="button">
+            <button style="border-radius: 20px; background: #f8e11bb0" onclick="window.location.href='/daftar'">Daftar</button>
+            <button style="border-radius: 20px; background: #3bd353b0" onclick="window.location.href='/masuk'">Login</button>
+        </div>
+        <div class="content">
+            <h1>FFC</h1>
+            <h1>Fresh Fruits Classification</h1>
+            <h3>Benefits for Yours Healthy Life</h3>
+        </div>
+    </div>
+</body>
+</html>
